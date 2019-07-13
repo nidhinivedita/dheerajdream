@@ -1,0 +1,48 @@
+<html>
+{%load staticfiles%}
+<head>
+  <link rel="stylesheet" href="{% static "css/test.css" %}">
+</head>
+<body>
+<form action="/" >
+<div class="main">
+	<div class="header">
+		<div class="navi">
+			<ul>
+				<li> <a href="" class="link"> Home </a> </li>
+				<li> <a href="" class="link"> About  </a> </li>
+			</ul>
+		</div>
+
+		<div class="social">
+			<img src="twitter.png">
+		</div>
+	</div>
+</div>
+
+<div class="header2">
+	<div class="header22">
+		<h1>Log in to Twitter</h1> <br>
+		<input type="text" placeholder="Phone,email or username" class="input" name='name'> <br><br>
+		<input type="password" placeholder="Password" class="input">
+	</div>
+
+	<div class="header33">
+
+		<input type="submit" value="Log in"  class="login">
+		<input type="checkbox" value="select">
+		Remember me. <a href="" class="link2">Forgot password?</a>
+	</div>
+</div>
+
+<div class="header3">
+	<div class="header33">
+		New to Twitter? <a href="" class="link2">Sign up now »</a> <br><br>
+		Already using Twitter via text message? <a href="" class="link2"> Activate your account »</a>
+	</div>
+</div>
+
+</form>
+
+</body>
+</html>
